@@ -1,0 +1,111 @@
+{
+  "navbar": {
+    "about": "About",
+    "team": "Team",
+    "api": "API",
+    "publications": "Publications",
+    "tryDemo": "Try Demo",
+    "toggleTheme": "Toggle theme"
+  },
+  "hero": {
+    "subtitle": "Multimodal AI for Healthcare Applications",
+    "title": "Radiology reports",
+    "titleFrom": "from CT scans",
+    "titleTime": "in seconds.",
+    "description": "A model trained natively on Turkish medical language produces clinically structured reports reducing radiologists' workload and accelerating turnaround time.",
+    "tryDemo": "Try Demo",
+    "apiDocs": "API Docs",
+    "stat": {
+      "latency": { "value": "< 4s", "label": "Avg. latency" },
+      "clinical": { "value": "96%", "label": "Clinical match" },
+      "language": { "value": "TR", "label": "Native language" }
+    }
+  },
+  "about": {
+    "subtitle": "About the project",
+    "title1": "Radiology reports take time.",
+    "title2": "Time clinicians don't have.",
+    "p1": "We asked a simple question: can artificial intelligence understand medical images and write these reports automatically in Turkish?",
+    "p2": "This project explores that idea by combining 3D CT imaging with multimodal AI models. By teaching machines to see and describe medical data, we aim to make reporting faster, more consistent, and more accessible.",
+    "p3": "It's not just about automation. It's about supporting better decisions in healthcare.",
+    "abstractTitle": "Abstract",
+    "abstract": "Writing radiology reports constitutes a significant clinical burden for radiologists. While AI research on automatic report generation from medical images has gained momentum, the existing literature predominantly focuses on English, leaving low-resource clinical languages such as Turkish largely underexplored. We comprehensively compare multimodal large language models for automatic Turkish radiology report generation from 3D CT volumes. General-purpose (Gemma 3) and medical domain-specific (MedGemma) models are evaluated under slice-based and volumetric representation strategies, with zero-shot and parameter-efficient fine-tuning (QLoRA), using ROUGE and BERTurk-based BERTScore. Results show that fine-tuning plays a decisive role in low-resource languages and that slice-based representations outperform volumetric approaches in the current setup.",
+    "features": {
+      "fast": {
+        "title": "Fast",
+        "desc": "Generate a fully structured report from a CT series within seconds."
+      },
+      "turkish": {
+        "title": "Turkish-native",
+        "desc": "Trained specifically on Turkish medical terminology and reporting style."
+      },
+      "accuracy": {
+        "title": "Clinical accuracy",
+        "desc": "Evaluated on radiologist-validated datasets with auditable outputs."
+      }
+    }
+  },
+  "team": {
+    "title": "Meet our",
+    "titleLight": "team.",
+    "supervisor": "Project Supervisor",
+    "member": "Team Member",
+    "bios": {
+      "erkut": "Research focuses on advancing computational methods for visual data analysis and modeling.",
+      "emir": "AI Engineering student at Hacettepe University focused on computer vision and medical imaging, building data-driven systems for real-world healthcare imaging.",
+      "ender": "AI Engineering student at Hacettepe University working on computer vision and multimodal learning, with a focus on applying deep learning to medical imaging.",
+      "gulse": "AI Engineering student at Hacettepe University interested in computer vision and multimodal models, focused on building AI systems for healthcare applications.",
+      "abdullah": "AI Engineering student at Hacettepe University working on computer vision and multimodal LLMs, exploring vision-language integration for practical use."
+    }
+  },
+  "api": {
+    "subtitle": "API & Demo",
+    "title1": "Upload an image,",
+    "title2": "watch the report.",
+    "steps": {
+      "upload": {
+        "n": "01",
+        "title": "Upload a CT volume",
+        "desc": "Supports .nii.gz and .npz formats only."
+      },
+      "analyze": {
+        "n": "02",
+        "title": "The model analyzes",
+        "desc": "Structured findings and impression are generated."
+      },
+      "review": {
+        "n": "03",
+        "title": "Review & export",
+        "desc": "Turkish report text and structured JSON output."
+      }
+    },
+    "downloadLocal": "Download to run locally"
+  },
+  "publications": {
+    "subtitle": "Publication",
+    "title1": "Our research &",
+    "title2": "paper.",
+    "authors": "Authors",
+    "abstract": "Abstract",
+    "openPdf": "Open PDF",
+    "download": "Download",
+    "underReview": "Under review"
+  },
+  "contact": {
+    "subtitle": "Get in Touch",
+    "description": "If you'd like to get in touch with us, you can reach our GitHub repository here.",
+    "location": "Hacettepe University Computer Science Department",
+    "githubRepo": "GitHub Repository",
+    "datasetTitle": "Dataset",
+    "datasetText": "Public English version of the dataset:"
+  },
+  "footer": {
+    "tagline": "An open research project generating Turkish radiology reports from CT scans.",
+    "project": "Project",
+    "team": "Team",
+    "contact": "Contact",
+    "members": "Members",
+    "github": "GitHub repository",
+    "rights": "All rights reserved."
+  }
+}

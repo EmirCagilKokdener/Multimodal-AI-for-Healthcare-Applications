@@ -1,0 +1,111 @@
+{
+  "navbar": {
+    "about": "Hakkımızda",
+    "team": "Ekip",
+    "api": "API",
+    "publications": "Yayınlar",
+    "tryDemo": "Demoyu Dene",
+    "toggleTheme": "Temayı Değiştir"
+  },
+  "hero": {
+    "subtitle": "Sağlık Uygulamaları İçin Çok Kipli Yapay Zekâ",
+    "title": "Radyoloji raporları",
+    "titleFrom": "BT taramalarından",
+    "titleTime": "saniyeler içinde.",
+    "description": "Türkçe tıbbi dil üzerine özgün biçimde eğitilmiş modelimiz, klinik açıdan yapılandırılmış raporlar üreterek radyologların iş yükünü hafifletir ve raporlama süreçlerini hızlandırır.",
+    "tryDemo": "Demoyu Dene",
+    "apiDocs": "API Belgeleri",
+    "stat": {
+      "latency": { "value": "< 4s", "label": "Ort. gecikme" },
+      "clinical": { "value": "96%", "label": "Klinik uyum" },
+      "language": { "value": "TR", "label": "Ana dil" }
+    }
+  },
+  "about": {
+    "subtitle": "Proje Hakkında",
+    "title1": "Radyoloji raporları zaman alır.",
+    "title2": "Klinisyenlerin sahip olmadığı bir zaman.",
+    "p1": "Basit bir soru sorduk: yapay zekâ tıbbi görüntüleri anlayıp bu raporları otomatik olarak Türkçe yazabilir mi?",
+    "p2": "Bu proje, 3B BT görüntülemeyi çok kipli yapay zekâ modelleriyle birleştirerek bu soruyu araştırmaktadır. Makinelere tıbbi verileri görmeyi ve yorumlamayı öğreterek raporlamayı daha hızlı, tutarlı ve erişilebilir kılmayı hedefliyoruz.",
+    "p3": "Bu yalnızca otomasyon meselesi değil. Sağlıkta daha iyi kararlara zemin hazırlamak.",
+    "abstractTitle": "Özet",
+    "abstract": "Radyoloji raporlarının yazımı, klinisyenler üzerinde önemli bir iş yükü oluşturmaktadır. Tıbbi görüntülerden otomatik rapor üretimine yönelik yapay zeka çalışmaları son yıllarda hız kazanmış olsa da mevcut literatür büyük ölçüde İngilizce'ye odaklanmakta; Türkçe gibi düşük kaynaklı klinik diller için sistematik değerlendirmeler oldukça sınırlı kalmaktadır. Bu çalışmada, üç boyutlu Bilgisayarlı Tomografi (BT) hacimlerinden otomatik Türkçe radyoloji raporu üretimi için çok kipli büyük dil modelleri kapsamlı biçimde karşılaştırılmaktadır. Genel amaçlı (Gemma 3) ve tıbbi alana özgü (MedGemma) modeller; kesit tabanlı ve hacimsel temsil yaklaşımları ile sıfır-örnekli ve parametre verimli ince ayar (QLoRA) senaryoları altında ROUGE ve BERTurk tabanlı BERTScore metrikleriyle değerlendirilmiştir. Sonuçlar, ince ayarın düşük kaynaklı dillerde belirleyici bir rol oynadığını ve kesit tabanlı temsillerin mevcut durumda hacimsel yaklaşımlara kıyasla daha etkili olduğunu ortaya koymaktadır.",
+    "features": {
+      "fast": {
+        "title": "Hızlı",
+        "desc": "Bir BT serisinden saniyeler içinde tam yapılandırılmış rapor oluşturun."
+      },
+      "turkish": {
+        "title": "Türkçeye Özgü",
+        "desc": "Türkçe tıp terminolojisi ve raporlama diline özgün biçimde eğitilmiştir."
+      },
+      "accuracy": {
+        "title": "Klinik Doğruluk",
+        "desc": "Radyolog onaylı veri kümeleri üzerinde test edilmiş, denetlenebilir çıktılar sunar."
+      }
+    }
+  },
+  "team": {
+    "title": "Ekibimizle",
+    "titleLight": "tanışın.",
+    "supervisor": "Proje Danışmanı",
+    "member": "Ekip Üyesi",
+    "bios": {
+      "erkut": "Araştırmaları, görsel veri analizi ve modelleme için hesaplamalı yöntemlerin geliştirilmesine odaklanmaktadır.",
+      "emir": "Hacettepe Üniversitesi Yapay Zeka Mühendisliği öğrencisi; bilgisayarlı görü ve tıbbi görüntülemeye odaklanarak gerçek dünya sağlık uygulamaları için veri odaklı sistemler geliştirmektedir.",
+      "ender": "Hacettepe Üniversitesi Yapay Zeka Mühendisliği öğrencisi; bilgisayarlı görü ve çok kipli öğrenme alanında çalışmakta, derin öğrenmeyi tıbbi görüntülemeye uygulamaya odaklanmaktadır.",
+      "gulse": "Hacettepe Üniversitesi Yapay Zeka Mühendisliği öğrencisi; bilgisayarlı görü ve çok kipli modellere ilgi duymakta, sağlık uygulamaları için yapay zeka sistemleri geliştirmeye odaklanmaktadır.",
+      "abdullah": "Hacettepe Üniversitesi Yapay Zeka Mühendisliği öğrencisi; bilgisayarlı görü ve çok kipli büyük dil modelleri üzerinde çalışmakta, görü-dil entegrasyonunu pratik kullanım için araştırmaktadır."
+    }
+  },
+  "api": {
+    "subtitle": "API ve Demo",
+    "title1": "Görüntünüzü yükleyin,",
+    "title2": "raporu görüntüleyin.",
+    "steps": {
+      "upload": {
+        "n": "01",
+        "title": "BT görüntüsü yükleyin",
+        "desc": "Yalnızca .nii.gz ve .npz formatları desteklenir."
+      },
+      "analyze": {
+        "n": "02",
+        "title": "Model analiz eder",
+        "desc": "Yapılandırılmış bulgular ve sonuç bölümü oluşturulur."
+      },
+      "review": {
+        "n": "03",
+        "title": "İncele ve dışa aktar",
+        "desc": "Türkçe rapor metni ve yapılandırılmış JSON çıktısı."
+      }
+    },
+    "downloadLocal": "Yerelde çalıştırmak için indir"
+  },
+  "publications": {
+    "subtitle": "Yayın",
+    "title1": "Araştırmamız ve",
+    "title2": "makalemiz.",
+    "authors": "Yazarlar",
+    "abstract": "Özet",
+    "openPdf": "PDF'yi Aç",
+    "download": "İndir",
+    "underReview": "Değerlendirme aşamasında"
+  },
+  "contact": {
+    "subtitle": "İletişim",
+    "description": "Bizimle iletişime geçmek isterseniz, GitHub depomuza buradan ulaşabilirsiniz.",
+    "location": "Hacettepe Üniversitesi Bilgisayar Mühendisliği Bölümü",
+    "githubRepo": "GitHub Deposu",
+    "datasetTitle": "Veri Kümesi",
+    "datasetText": "Veri kümesinin İngilizce herkese açık sürümü:"
+  },
+  "footer": {
+    "tagline": "BT taramalarından Türkçe radyoloji raporları üreten açık kaynaklı bir araştırma projesi.",
+    "project": "Proje",
+    "team": "Ekip",
+    "contact": "İletişim",
+    "members": "Üyeler",
+    "github": "GitHub deposu",
+    "rights": "Tüm hakları saklıdır."
+  }
+}
